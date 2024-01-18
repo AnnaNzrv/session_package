@@ -1,0 +1,20 @@
+Package: coa
+Title: Compund Assignment Operators
+Version: 0.0.1
+Authors@R: c(
+    person(given = "Anna", family = "Anna", role = c("aut", "cre"), email = "test@mail.com")
+  )
+Description: This package provides compund assignment operators
+License: <choose your own, see '1.1.2 Licensing' in Writing R Extensions>
+URL: <your github repo url>
+BugReports: <github repo url with /issues appended>
+ByteCompile: true
+Encoding: UTF-8
+Config/testthat/edition: 3
+Config/testthat/parallel: true
+Roxygen: list(markdown = TRUE)
+Imports:
+  checkmate
+Suggests:
+  testthat
+RoxygenNote: 7.3.0
